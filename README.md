@@ -26,7 +26,7 @@ The following sections display the effect of the command-line argument test filt
 **Unit Test Source:**
 ```javascript
 const tape = require('tape');
-const test = require('./index')(tape);
+const test = require('tape-filter')(tape);
 
 function foo() {
   return 123;
@@ -53,7 +53,7 @@ test('bar should return 321', function(t) {
 
 **Shell command without filtering:**
 ```shell
-[user@box:~/tape-filter$] node test.js 
+[user@box:~/project$] node test.js 
 TAP version 13
 # foo should return 123
 ok 1 should be equal
@@ -69,7 +69,7 @@ ok 2 should be equal
 
 **Shell command with filtering:**
 ```shell
-[user@box:~/tape-filter$] node test.js --test-filter=".*foo.*"
+[user@box:~/project$] node test.js --test-filter=".*foo.*"
 TAP version 13
 # foo should return 123
 ok 1 should be equal
