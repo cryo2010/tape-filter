@@ -1,6 +1,6 @@
 {
   "name": "tape-filter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tapejs decorator to add test filter capabilities",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/cryo2010/tape-filter"
   },
   "author": "Craig Younker <cryo2010@gmail.com>",
-  "license": "SEE LICENCE IN LICENSE",
+  "license": "MIT",
   "devDependencies": {
     "tape": "^4.6.0"
   },
