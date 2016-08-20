@@ -52,6 +52,7 @@ test('bar should return 321', function(t) {
 ```
 
 **Shell command without filtering:**
+
 ```shell
 [user@box:~/tape-filter$] node test.js 
 TAP version 13
@@ -69,6 +70,7 @@ ok 2 should be equal
 '''
 
 **Shell command with filtering:**
+
 ```shell
 [user@box:~/tape-filter$] node test.js --test-filter=".*foo.*"
 TAP version 13
