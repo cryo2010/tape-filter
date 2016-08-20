@@ -1,0 +1,17 @@
+{
+  "name": "tape-filter",
+  "version": "1.0.0",
+  "description": "A tapejs decorator to add test filter capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "author": "Craig Younker <cryo2010@gmail.com>",
+  "license": "SEE LICENCE IN LICENSE",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
