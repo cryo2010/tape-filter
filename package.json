@@ -1,6 +1,6 @@
 {
   "name": "tape-filter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tapejs decorator to add test filter capabilities",
   "main": "index.js",
   "scripts": {
