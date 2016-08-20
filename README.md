@@ -1,5 +1,5 @@
 # Overview
-tape-filter is a tapejs decorator that adds the capability to filter test cases.
+tape-filter is a [tapejs] decorator that adds the capability to filter test cases.
 
 # Installation
 npm install tape-filter
@@ -81,3 +81,4 @@ ok 1 should be equal
 # ok
 ```
 
+[tapejs]: https://github.com/substack/tape
